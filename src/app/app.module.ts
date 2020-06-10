@@ -17,8 +17,7 @@ import { HomeComponent } from './components/home/home.component';
 
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
-import { HeroeComponent } from './component/heroe/heroe.component';
-import { HeroreComponent } from './components/herore/herore.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
 
 
 @NgModule({
@@ -29,7 +28,6 @@ import { HeroreComponent } from './components/herore/herore.component';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
-    HeroreComponent
   ],
   imports: [
     BrowserModule,
