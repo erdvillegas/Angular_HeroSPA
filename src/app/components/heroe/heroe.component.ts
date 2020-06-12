@@ -18,9 +18,9 @@ export class HeroeComponent {
     private router: Router
   ) {
 
-    console.log("Estoy en heroe");
+    console.log('Estoy en heroe');
     this.activatedRoute.params.subscribe(params => {
-      this.heroe = this.heroeServices.getHeroe(params["id"]);
+      this.heroe = this.heroeServices.getHeroe(params['id']);
     });
 
     console.log(this.heroe);
