@@ -18,7 +18,7 @@ export class HeroeTarjetaComponent implements OnInit {
   @Output() heroeSeleccionado: EventEmitter<number>;
 
 
-  constructor(private router: Router) { 
+  constructor(private router: Router) {
     this.heroeSeleccionado = new EventEmitter();
   }
 

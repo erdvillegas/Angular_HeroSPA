@@ -18,14 +18,13 @@ export class HeroeComponent {
     private router: Router
   ) {
 
-    console.log('Estoy en heroe');
     this.activatedRoute.params.subscribe(params => {
       this.heroe = this.heroeServices.getHeroe(params['id']);
     });
 
     console.log(this.heroe);
   }
-  
+
   regresarHeroes(){
     this.router.navigate(['/heroes']);
   }

@@ -9,7 +9,7 @@
 </div>
 
 <div class="card-columns animated fadeIn ">
-    <app-heroe-tarjeta [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i=i ndex ">
+    <app-heroe-tarjeta [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes">
 
     </app-heroe-tarjeta>
 </div>
